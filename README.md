@@ -10,7 +10,8 @@ Tested on:
 1. Mycobot 280 M5
 2. IntelRealSense Camera
 3. Phatom to scan on
-4. Traj_scripts repo
+4. SlicerROS2
+5. Traj_scripts repo
 
 ## Installation
 
@@ -43,7 +44,12 @@ ros2 run rviz2 rviz2
 ```
 Once rviz2 opens, you can display the video, depth, and pointcloud output. To display the outputs, select the "Add" button, and select "Topics" tabs. Select the topics you wish to display on this page.
 
-**Step 3:** Run the ``single_capture_pointcloud.py`` script to capture a pointcloud of the cavity.
+**Step 3:** Open SlicerROS2 by launching the version of Slicer it was built on. If you followed the SlicerROS2 docs properly, the following commands should launch Slicer.
+```bash
+cd Slicer-SuperBuild-Debug/Slicer-build
+./Slicer
+```
+
 
 
 
