@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# Hand eye calibrate using opencv
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import PointCloud2, Image
